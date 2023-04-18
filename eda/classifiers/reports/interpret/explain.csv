@@ -1,0 +1,5 @@
+feature, explanation
+Action Units, Our model find AU5-7-14 and 24 significant to determine your engagement level.
+Head Pose, Y-axis value of translation and rotation had a determining effect.
+3D Eye Landmark, Z-direction of the landmark values had more impact than other axes.
+3D FAce Landmark, Z-direction of the landmark values had more impact than other axes.
