@@ -2,7 +2,7 @@
 
 _Classroom Engagement using our custom video data._
 
-This repo contains the data pipeline and experiments for our new audiovisual dataset containing group studies with engagement level annotations. A summary of our data pipeline is depicted in the below diagram:
+This repo contains the data pipeline and experiments for our new audiovisual dataset containing group studies with engagement level annotations. We recently open-sourced it, and we only used this dataset in our clusters. So, if you encounter any issue, please open an issue and the authors will try to resolve the issue as soon as possible.A summary of our data pipeline is depicted in the below diagram:
 
 ![Our Data Pipeline Summary](./media/diagram.png)
 
@@ -11,11 +11,32 @@ This repo contains the data pipeline and experiments for our new audiovisual dat
 If you are using the dataset, code or research insights in your work, please cite the corresponding papers:
 
 ```
-@article{sabuncuoglu2023dataset,
-  title={Multimodal Group Activity Dataset for Classroom Engagement Level Prediction},
+Alpay Sabuncuoglu and T Metin Sezgin. Multimodal Group Activity Dataset for Classroom Engagement Level Prediction. arXiv preprint. 2023.
+
+Alpay Sabuncuoglu and T Metin Sezgin. Developing a multimodal classroom engagement analysis dashboard for higher-education students. Proceedings of the ACM on Human-Computer Interaction, 7(EICS):1–23, 2023.
+```
+
+**BibTex:**
+
+```
+@misc{sabuncuoglu2023multimodal,
+      title={Multimodal Group Activity Dataset for Classroom Engagement Level Prediction}, 
+      author={Alpay Sabuncuoglu and T. Metin Sezgin},
+      year={2023},
+      eprint={2304.08901},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC}
+}
+
+@article{sabuncuoglu2023dashboard,
+  title={Developing a Multimodal Classroom Engagement Analysis Dashboard for Higher-Education Students},
   author={Sabuncuoglu, Alpay and Sezgin, T Metin},
-  journal={arXiv preprint arXiv:},
-  year={2023}
+  journal={Proceedings of the ACM on Human-Computer Interaction},
+  volume={7},
+  number={EICS},
+  pages={1--23},
+  year={2023},
+  publisher={ACM New York, NY, USA}
 }
 
 ```
